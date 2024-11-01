@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import App from "../components/App";
-
+import { username } from "./user.test";
 test("it renders without crashing", () => {
   try {
     expect(() => render(<App />)).not.toThrow();
